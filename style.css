@@ -12,11 +12,11 @@ body {
 }
 
 .triangle {
-  width: 25vw;
+  width: 360px;
   z-index: -1;
-  position: fixed;
-  top: 45vh;
-  left: 38vw;
+  position: absolute;
+  top: 310px;
+  right: 37%;
 }
 
 .up {
@@ -189,3 +189,74 @@ body {
     box-shadow: 0 0 40px 40px rgb(57, 57, 57);
   }
 }
+
+@media only screen and (max-width: 1290px) {
+
+  .triangle {
+    right: 35%;
+  }
+
+  .imgRock {
+    margin: 0 45px 45px 0;
+  }
+
+  .imgPaper {
+    margin: 0 0 45px 45px;
+  }
+
+  .imgScissors {
+    margin: 45px 0 0 0;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .triangle {
+    right: 32%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+
+  .triangle {
+    right: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .triangle {
+    left: 25%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .triangle {
+    left: 21%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .triangle {
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .triangle {
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  body {
+    display: none;
+  }
+}
+
+
