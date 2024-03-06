@@ -11,6 +11,7 @@ let downContainer = document.querySelector(".down");
 let play = document.querySelector(".play");
 let heading = document.querySelector(".heading");
 let triangle = document.querySelector(".triangle");
+let music = new Audio("Resources/music.mp3")
 
 
 
