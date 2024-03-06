@@ -258,11 +258,11 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
 
   body {
     display: none;
   }
-}
+} */
 
 
