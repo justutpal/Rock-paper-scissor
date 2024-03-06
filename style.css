@@ -21,7 +21,7 @@ body {
 
 .up {
   margin: 25px auto;
-  padding: 20px;
+  padding: 25px;
   border: 2px solid white;
   border-radius: 15px;
   width: 75vw;
@@ -30,7 +30,13 @@ body {
 }
 
 .upRight {
-  padding: 15px;
+  font-family: cursive;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
   border-radius: 10px;
   text-align: center;
   color: hsl(229, 64%, 46%);
